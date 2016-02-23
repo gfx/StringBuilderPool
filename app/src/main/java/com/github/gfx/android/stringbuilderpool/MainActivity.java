@@ -7,6 +7,11 @@ import android.support.v4.util.Pools;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
+// on Xperia Z4 (Android 5.0.2)
+//
+// 02-23 12:01:59.803 8260-9278/com.github.gfx.android.stringbuilderpool D/XXX: SimplePool: 152ms
+// 02-23 12:01:59.938 8260-9278/com.github.gfx.android.stringbuilderpool D/XXX: SynchronizedPool: 153m
+// 02-23 12:02:00.061 8260-9278/com.github.gfx.android.stringbuilderpool D/XXX: No pool: 116ms
 public class MainActivity extends AppCompatActivity {
 
     int N = 100000;
